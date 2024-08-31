@@ -1,12 +1,21 @@
-2024-08-30T01:30:30.998Z info: Sending prompt to OpenAI
-2024-08-30T01:30:33.441Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-2024-08-30T01:32:15.041Z info: Sending prompt to OpenAI
-2024-08-30T01:32:17.464Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-2024-08-30T01:33:37.634Z info: Sending prompt to OpenAI
-2024-08-30T01:33:40.074Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-2024-08-30T01:34:25.167Z info: Sending prompt to OpenAI
-2024-08-30T01:34:27.609Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-2024-08-30T01:43:16.804Z info: Sending prompt to OpenAI
-2024-08-30T01:43:19.410Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
-2024-08-30T01:45:50.809Z info: Sending prompt to OpenAI
-2024-08-30T01:45:53.460Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+PS C:\Users\dflopez\Desktop\Uniandes\Transformacion Digital\Cursor\data-privacy-vault> node server.js
+Connected to MongoDB
+Server running at http://localhost:3001
+Received prompt: My name is Alvaro Vera, my email is avera@example.com, and my phone number is 5554569892. Can you write a short story about me using the my name, my phone number and my email?
+Anonymizing prompt...
+Anonymized prompt: My name is NAME_2f8c0f0e, my email is EMAIL_49b97839, and my phone number is PHONE_b65d63dc. Can you write a short story about me using the my name, my phone number and my email?
+Sending anonymized prompt to ChatGPT...
+2024-08-31T02:55:40.418Z info: Sending prompt to OpenAI
+2024-08-31T02:55:42.866Z info: Received response from OpenAI
+Received anonymized response from ChatGPT: Once upon a time, there was a young woman named NAME_2f8c0f0e who lived in a quaint little town. She always had a smile on her face and a twinkle in her eye, and her positive energy was contagious to all who knew her.
+
+One day, NAME_2f8c0f0e received an email at her email address EMAIL_49b97839 from a mysterious sender. The email contained a cryptic message that left her intrigued and curious. She couldn't shake the feeling that there was something important waiting for her on the other end of that message.
+
+Determined to uncover the truth, NAME_2f8c0f0e decided to call the phone number listed in the...
+Deanonymizing response...
+Deanonymized response: Once upon a time, there was a young woman named Alvaro Vera who lived in a quaint little town. She always had a smile on her face and a twinkle in her eye, and her positive energy was contagious to all who knew her.
+
+One day, Alvaro Vera received an email at her email address avera@example.com from a mysterious sender. The email contained a cryptic message that left her intrigued and curious. She couldn't shake the feeling that there was something important waiting for her on the other end of that 
+message.
+
+Determined to uncover the truth, Alvaro Vera decided to call the phone number listed in the...

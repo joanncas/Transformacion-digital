@@ -1,0 +1,53 @@
+1. 
+
+I am creating a Data Privacy Vault so that PII (Personally
+identifiable information) becomes anonymized using
+node.js.
+I need to start with the first step: have an endpoint so
+that it receivesa single string with a message thatcontains PII like names, emails and phone numbers and
+returns it anonymized replacing the whole name, email and
+phone with an alphanumeric token.
+Please act as an experienced node.js developer and tell me
+step by step how would you do it. Ask me for information
+whenever you need it and use good coding practices and
+comments in the functions.
+An example of the request can be:
+curl -X POST http://localhost:3001/anonymize -H
+"Content-Type: application/json" -d '{"message":"oferta de
+trabajo para Dago Borda con email dborda@gmail.com y
+teléfono 3152319157"}'
+The response to that request would be:
+{
+"anonymizedMessage": "oferta de trabajo para d7e8e0bf
+bd673df2 con email b09bde30 y teléfono dd195b6c"
+}
+
+
+2.
+Thanks. Now, let's implement the deanonymize endpoint
+where the calling should be like this:
+curl -X POST http://localhost:3001/deanonymize -H
+"Content-Type: application/json" -d
+'{"anonymizedMessage":"oferta de trabajo para
+NAME_e1be92e2b3a5 con email EMAIL_8004719c6ea5 y telefono
+PHONE_40e83067b9cb"}'
+and should return the original message:
+{"message":"oferta de trabajo para Dago Borda con email
+dborda@gmail.com y teléfono 3152319157"}
+
+3. 
+please add mongodb persistent connection to store private information and its respective tokens
+
+4. 
+please create a class that connects with openAI and will use text completion.
+Please create a new endpoint named secureChatGPT this will: 
+-receive a promt that has private information (names, phone numbers and emails)
+-Anonymize using the already implemented functions
+-Send the promt to ChatGPT using the class that you will create
+-Get the response and deanonymize
+-Send the response to the final client
+
+Please log each step
+
+5. 
+Please create a README.md filewith the project description and the steps to install
