@@ -1,0 +1,12 @@
+2024-08-30T01:30:30.998Z info: Sending prompt to OpenAI
+2024-08-30T01:30:33.441Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-08-30T01:32:15.041Z info: Sending prompt to OpenAI
+2024-08-30T01:32:17.464Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-08-30T01:33:37.634Z info: Sending prompt to OpenAI
+2024-08-30T01:33:40.074Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-08-30T01:34:25.167Z info: Sending prompt to OpenAI
+2024-08-30T01:34:27.609Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-08-30T01:43:16.804Z info: Sending prompt to OpenAI
+2024-08-30T01:43:19.410Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+2024-08-30T01:45:50.809Z info: Sending prompt to OpenAI
+2024-08-30T01:45:53.460Z error: Error in OpenAI text completion: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
